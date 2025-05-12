@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps Project: Docker & AWS Elastic Beanstalk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4361ee;
+      --secondary: #3f37c9;
+      --dark: #1a1a2e;
+      --light: #f8f9fa;
+      --success: #4cc9f0;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 800px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 2.5rem;
+      margin: 2rem;
+      text-align: center;
+    }
+    
+    h1 {
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+      font-size: 2.5rem;
+    }
+    
+    .greeting {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      color: var(--secondary);
+    }
+    
+    .objectives {
+      text-align: left;
+      margin: 2rem 0;
+    }
+    
+    .objective-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      background: rgba(67, 97, 238, 0.1);
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+    
+    .objective-item:hover {
+      transform: translateX(5px);
+    }
+    
+    .icon {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+      color: var(--primary);
+    }
+    
+    .tech-stack {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin: 2rem 0;
+    }
+    
+    .tech-item {
+      background: var(--primary);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.5rem;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+      
+      .greeting {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>DevOps Project</h1>
+    <p class="greeting">Hello from Abdullah's custom Docker container! 🚀</p>
+    
+    <div class="objectives">
+      <h2>Project Objectives:</h2>
+      <div class="objective-item">
+        <span class="icon">🐳</span>
+        <span>Install and use Docker to containerize the application.</span>
+      </div>
+      <div class="objective-item">
+        <span class="icon">🖼️</span>
+        <span>Build a custom Docker container image.</span>
+      </div>
+      <div class="objective-item">
+        <span class="icon">🚢</span>
+        <span>Run the containerized application locally.</span>
+      </div>
+      <div class="objective-item">
+        <span class="icon">☁️</span>
+        <span>Deploy to AWS Elastic Beanstalk and access it live.</span>
+      </div>
+    </div>
+    
+    <div class="tech-stack">
+      <span class="tech-item">Docker</span>
+      <span class="tech-item">AWS Elastic Beanstalk</span>
+      <span class="tech-item">DevOps</span>
+    </div>
+    
+    <footer>
+      Project by Abdullah | Containerized & Deployed with ♥
+    </footer>
+  </div>
+</body>
+</html>  
